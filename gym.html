@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna's fittness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('abs-1850926_1920.jpg');
+        height: 675px;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 16px;
+    }
+
+    .right {
+        display: inline-block;
+    /* border: 2px solid red; */
+    position: fixed;
+    right: 47px;
+    top: 32px;
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 30px 813px;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+        font: 25px;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    .navbar li :hover {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left img {
+        width: 88px;
+    }
+    .left div{text-align: center;}
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: ghostwhite;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .btn:hover{
+        border-color: darkgray;
+        background-color: rgb(70, 66, 66);
+    }
+    .container{
+        /* border: 2px solid rgb(5, 4, 4); */
+        /* border: 2px solid green; */
+        /* border: 2px solid rgb(247, 247, 247); */
+    margin: 106px 780px;
+    padding: 26px;
+    width: 43%;
+    border-radius: 52px;
+}
+
+
+
+    .form-group input{
+        text-align: center;
+    display: block;
+    width: 307px;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 1px auto;
+    font-size: 17px;
+    font-family: 'Baloo Bhai 2' , cursive;
+}
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+margin: auto;
+width: 20%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="weight-1399281_1280.png" alt="">
+            <div>Krishna Fitness</div>
+        </div>
+        <!-- mid for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About us</a> </li>
+                <li> <a href="#">Fitness centre</a> </li>
+                <li> <a href="#">contact us</a> </li>
+            </ul>
+        </div>
+        <!-- right for something -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container"> <h1>Join the Best Gym of Satna</h1> 
+        <form action="action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+               
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+               
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+               
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+               
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact">
+               
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
